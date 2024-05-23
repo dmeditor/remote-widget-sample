@@ -1,0 +1,20 @@
+{
+  "name": "remote2",
+  "version": "1.0.0",
+  "description": "",
+  "exposeName": "main",
+  "entry": "remoteEntry.js",
+  "widgets": [
+    {
+      "id": "sample-widget",
+      "name": "SampleWidget",
+      "version": "1.0.0",
+      "previewImage": "http://localhost:3002",
+      "description": ""
+    }
+  ],
+  "dependencies": {},
+  "engines": {
+    "dmeditor": "1.0.0"
+  }
+}

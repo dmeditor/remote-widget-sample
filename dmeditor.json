@@ -7,10 +7,11 @@
   "widgets": [
     {
       "id": "sample-widget",
-      "name": "SampleWidget",
+      "name": "Sample widget",
       "version": "1.0.0",
-      "previewImage": "http://localhost:3002",
-      "description": ""
+      "image": "http://localhost:3002/sample.png",
+      "summary": "Same widget for widget development",
+      "description": "Description"
     }
   ],
   "dependencies": {},

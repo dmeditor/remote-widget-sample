@@ -1,13 +1,15 @@
-import * as React from 'react';
-import { css } from '@emotion/css';
-import { Slider } from '@mui/material';
-import { DME, useEditorStore } from 'dmeditor';
+import * as React from "react";
+import { css } from "@emotion/css";
+import { Slider } from "@mui/material";
+import { DME, useEditorStore } from "dmeditor";
 
-import { EntitySampleWidget } from './entity';
+import { EntitySampleWidget } from "./entity";
 
 const { useState, useEffect } = React;
 
-export const SampleWidget = (props: DME.WidgetRenderProps<EntitySampleWidget>) => {
+export const SampleWidget = (
+  props: DME.WidgetRenderProps<EntitySampleWidget>
+) => {
   const {
     blockNode: {
       data: { settings },
@@ -44,7 +46,7 @@ export const SampleWidget = (props: DME.WidgetRenderProps<EntitySampleWidget>) =
         style={{ width: width }}
         className={css`
           height: 300px;
-          background: ${settings.backgroundColor ?? '#ffe3e3'};
+          background: ${settings.backgroundColor ?? "#ffe3e3"};
         `}
       >
         Width: {width}
